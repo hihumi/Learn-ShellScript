@@ -1,0 +1,22 @@
+#!/bin/sh
+
+VAR1=a
+echo $VAR1
+
+VAR2="String"
+echo $VAR2
+
+VAR3=12345678910
+echo $VAR3
+
+VAR4="12345 + 678910"
+echo $VAR4
+
+VAR_X=$VAR1$VAR2
+echo $VAR_X
+
+VAR_Y=12345678910$VAR1
+echo $VAR_Y
+
+VAR_Z=${VAR1}12345678910
+echo $VAR_Z
